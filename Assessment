@@ -1,0 +1,62 @@
+Question 1
+package com.cogent.assessment;
+
+public class Simpleinterest {
+public static void main(String[] args) {
+	int p=4000;
+	int n= 4;
+	float r= 3.5f;
+	double si= (p*n*r)/100;
+	System.out.println(si);
+
+	}
+
+}
+560.0
+Question 2
+package com.cogent.assessment;
+
+public class SchoolRecords {
+	String name;
+	String Id;
+	String Address;
+	void addRecords(){
+		System.out.println("add all records of schools");
+	}
+	void dispRecords() {
+		System.out.println("display all Records");
+	}
+	public static void main(String[] args) {
+		SchoolRecords sr= new SchoolRecords();
+		sr.dispRecords();
+		sr.addRecords();		
+	}
+}display all Records
+add all records of schools
+
+Question 3
+package com.cogent.assessment;
+
+public class EmployeeManagement {
+
+	void addEmployee() {
+		System.out.println("add Employee to payroll");
+	}
+	static void dispRecords() {
+		System.out.println("display Employee payroll Records");
+	}
+	void deleteEmployee() {
+		System.out.println("delete Employee from payroll");
+	}
+	EmployeeManagement() {
+		System.out.println("");
+	}
+public static void main(String[] args) {
+	EmployeeManagement em= new EmployeeManagement();
+	em.addEmployee();
+	em.dispRecords();
+	em.deleteEmployee();
+}add Employee to payroll
+display Employee payroll Records
+delete Employee from payroll
+}
