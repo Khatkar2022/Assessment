@@ -31,7 +31,8 @@ public class SchoolRecords {
 		sr.dispRecords();
 		sr.addRecords();		
 	}
-}display all Records
+}
+display all Records
 add all records of schools
 
 Question 3
@@ -56,7 +57,8 @@ public static void main(String[] args) {
 	em.addEmployee();
 	em.dispRecords();
 	em.deleteEmployee();
-}add Employee to payroll
+}
+add Employee to payroll
 display Employee payroll Records
 delete Employee from payroll
 }
